@@ -1,0 +1,73 @@
+.header-container {
+    height: 100px;
+    background-color: whitesmoke;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 400;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  font-family: monospace;
+  border: 2px solid lightgray;
+
+  .left-side-header {
+    display: flex;
+
+
+
+    .cenzor-link,
+    .task-link,
+    .users-link {
+      color: rgb(36, 173, 219);
+      margin-left: 20px;
+      margin-right: 20px;
+      position: relative;
+      z-index: 9;
+      background-color: white;
+      bottom: -15px;
+      height: 30px;
+      width: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .active {
+      color: rgb(0, 238, 0);
+      border-top: 2px solid lightgray;
+      border-left: 2px solid lightgray;
+      border-right: 2px solid lightgray;
+      border-bottom: 3px solid white;
+      border-radius: 5px 5px 0 0;
+    }
+
+    .last-works-text {
+      position: relative;
+      bottom: -21px;
+      color: rgb(36, 173, 219);
+    }
+
+    .task-link {
+      margin-left: 20px;
+    }
+  }
+
+
+  .back-to-home-text {
+    position: relative;
+    bottom: -21px;
+    color: rgb(36, 173, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}

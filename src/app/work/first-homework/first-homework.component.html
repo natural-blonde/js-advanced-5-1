@@ -1,0 +1,15 @@
+<app-work></app-work>
+<div class="main-container">
+    <div class="bad-words-container">
+      <p>Bad words: <span class="bad-words">{{ striingBadWords }}</span></p>
+    </div>
+    <div class="inputs">
+      <input type="text" [(ngModel)]="text" [placeholder]="placeholder" class="input-1" >
+      <input type="button" value="Add" class="btn-add" (click)="btnAdd()">
+      <input type="button" value="Reset" class="btn-reset" (click)="resetButton()">
+      <input type="text" class="big-input" [(ngModel)]="text2" [placeholder]="placeholder2">
+      <form>
+        <input type="button" value="Cenzor" class="big-button" (click)="cenzorButton()">
+      </form>
+    </div>
+  </div>

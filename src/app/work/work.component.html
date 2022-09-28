@@ -1,0 +1,12 @@
+<div class="header-container">
+    <p class="text">Angular list of previuos tasks</p>
+</div>
+<header>
+    <div class="left-side-header">
+        <p class="last-works-text">Last works >>></p>
+        <p [routerLink]="['/work/cenzor']" routerLinkActive="active" class="cenzor-link">Cenzor</p>
+        <p [routerLink]="['/work/userlist']" routerLinkActive="active" class="users-link">Users</p>
+        <p [routerLink]="['/work/tasklist']" routerLinkActive="active" class="task-link">Task</p>
+    </div>
+    <p [routerLink]="['/home']" class="back-to-home-text">Back to >>> Home</p>
+</header>

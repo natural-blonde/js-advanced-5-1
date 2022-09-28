@@ -1,0 +1,60 @@
+.main-container {
+    padding-left: 20px;
+    height: 220px;
+    width: 400px;
+    background-color: lightgray;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    font-family: monospace;
+
+    .bad-words {
+        color: red;
+    }
+
+    .input-1 {
+        height: 40px;
+        width: 200px;
+        margin-right: 10px;
+        border-radius: 5px;
+        border: none;
+        color: gray;
+        border: 1px solid gray;
+    }
+
+    .btn-add, .btn-reset {
+        height: 40px;
+        background-color: yellow;
+        width: 75px;
+        margin-right: 10px;
+        border: none;
+        border-radius: 5px;
+        color: black;
+    }
+
+    .big-input {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 380px;
+        height: 60px;
+        border-radius: 5px;
+        border: none;
+        color: gray;
+        border: 1px solid gray;
+    }
+
+    .btn-reset {
+        background-color: red;
+        color: white;
+    }
+
+    .big-button {
+        width: 380px;
+        height: 40px;
+        color: white;
+        background-color: rgb(7, 170, 7);
+        border-radius: 5px;
+        border: none;
+    }
+}

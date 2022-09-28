@@ -1,0 +1,33 @@
+<header>
+    <div class="header-container">
+        <p class="text">Angular list of previuos tasks</p>
+    </div>
+</header>
+
+<div class="task-container">
+    <div class="first-task">
+        <div class="background-img">
+            <img class="img" src="../../assets/img/first-img-task.png" alt="">
+            <p class="text-on-img">Angular list of prohibited words</p>
+        </div>
+        <hr>
+        <button class="details-btn" [routerLink]="[ '/work/cenzor']">details</button>
+    </div>
+    <div class="second-task">
+        <div class="background-img">
+            <img class="img" src="../../assets/img/second-img-task.png" alt="">
+            <p class="text-on-img2">Angular task list</p>
+        </div>
+        <hr>
+        <button class="details-btn" [routerLink]="[ '/work/userlist']">details</button>
+    </div>
+
+    <div class="third-task">
+        <div class="background-img">
+            <img class="img" src="../../assets/img/third-img-task.png" alt="">
+            <p class="text-on-img">Angular user list</p>
+        </div>
+        <hr>
+        <button class="details-btn" [routerLink]="[ '/work/tasklist']">details</button>
+    </div>
+</div>
